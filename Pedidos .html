@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pedidos</title>
+</head>
+<body background="https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/color-degradado-fondos-degradados-multicolor-51200.jpg?fit=1920%2C1200&ssl=1">
+    <center> <img src="https://us.123rf.com/450wm/lumut/lumut1803/lumut180301103/98414324-plantilla-de-vector-de-logotipo-de-ilustraci%C3%B3n-de-pastel.jpg" alt="" height="80%" width="150" "> <br>
+    <H1>Pasteleria Filip</H1> </center>
+    <table width="100%" height="10%" bgcolor="" bordercolor="" border=".5" >
+        <th><a href="Practica 1.html">Inicio</a></th>
+        <th><a href="Pedidos .html">Pedidos Personalizados</a></th>
+        <th><a href="Promociones .html">Mapa</a></th>
+    </table><br>
+
+
+    <h2>  </h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" form="form1"><br><br>
+        <input type="reset">
+    </form>
+
+    <hr>
+    <h2>Datos para contactarlo</h2>
+    <label for="correo1">Correo Electronico</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+
+    <label for="numero1">Número Celular</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+    
+    <label for="tel1">Teléfono Fijo (Opcional)</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    
+    <hr>
+
+    <h2>¿QUE DESEA?</h2><br>
+    <input type="radio" id="Pastel" name="tipo" value="Pastel">
+    <label for="Pastel">Pastel</label><br>
+    <input type="radio" id="Tarta" name="tipo" value="Tarta">
+    <label for="Tarta">Tarta</label><br>
+    <input type="radio" id="Dulces" name="tipo" value="Dulces>
+    <label for="Dulces">Dulces</label><br><br>
+
+    <h2>¿Que Sabor?</h2>
+    <label for="tacos">De que la orden</label>
+    <select id="tacos" name="tacos">
+        <option value="suadero">Chocolate</option>
+        <option value="pastor">Vainilla</option>
+        <option value="campechanos">Fresa</option>
+        <option value="tripa">3 Leches</option>
+        <option value="tripa">Oreo</option>
+        <option value="tripa">Nutella</option>
+        <option value="tripa">Cafe</option>
+        <option value="tripa">zarzamora</option>
+        <option value="tripa">Flan</option>
+    </select>
+    
+
+    <h2>¿Con Fondan?</h2>
+    <input type="checkbox" id="topping1" name="topping1" value="Si">
+    <label for="topping1">Si</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="No">
+    <label for="topping2">No</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Muñecos">
+    <label for="topping3">Solo los muñecos</label><br><br>
+    
+    <hr>
+    
+    <h2>Fecha de Entrega</h2><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+
+    <hr>
+    
+    <h2>Si desea un modelo en especifico Insete la imagen aqui:</h2><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+    
+    <hr>
+    
+    <h2>Envio</h2>
+    <input type="reset"><br>
+    <input type="submit"id="Enviar" name="Enviar" value="Enviar " onclick="alert('Enviado Correctamente');"><br>
+    <hr>
+
+    
+</body>
+</html>
